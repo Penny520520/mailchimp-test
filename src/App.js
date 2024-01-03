@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       loadingg
       <MailchimpTest2/>
-      <HtmlForm/>
+      {/* <HtmlForm/> */}
     </div>
   );
 }
