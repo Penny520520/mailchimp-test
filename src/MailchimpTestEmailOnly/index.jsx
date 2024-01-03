@@ -35,6 +35,7 @@ const CustomForm = ({ status, message, onValidated }) => {
         value={formData.email}
         onChange={changeHandler}
       />
+      <div hidden=""><input type="hidden" name="tags" value="3755573"/></div>
       <input type="submit" />
       <div>
         {status === "success" ? (
