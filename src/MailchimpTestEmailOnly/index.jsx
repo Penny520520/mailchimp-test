@@ -6,6 +6,7 @@ const CustomForm = ({ status, message, onValidated }) => {
   console.log('t1')
   const [formData, setFormData] = useState({
     email: null,
+    tags: 3755573
 
   });
   const changeHandler = (event) => {
