@@ -19,9 +19,11 @@ const CustomForm = ({ status, message, onValidated }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     formData.email &&
+    formData.tags &&
     formData.email.indexOf("@") > -1 &&
     onValidated({
         EMAIL: formData.email,
+        tags: formData.tags,
     });
 }
 
