@@ -3,6 +3,7 @@ import React, {useState} from 'react';
 import MailchimpSubscribe from "react-mailchimp-subscribe";
 
 const CustomForm = ({ status, message, onValidated }) => {
+  console.log('t1')
   const [formData, setFormData] = useState({
     email: null,
     firstName: null,
