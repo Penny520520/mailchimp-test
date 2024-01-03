@@ -3,7 +3,6 @@ import React, {useState} from 'react';
 import MailchimpSubscribe from "react-mailchimp-subscribe";
 
 const CustomForm = ({ status, message, onValidated }) => {
-  console.log('t1')
   const [formData, setFormData] = useState({
     email: null,
     firstName: null,
@@ -73,7 +72,7 @@ const CustomForm = ({ status, message, onValidated }) => {
 };
 
 const MailchimpFormContainer = props => {
-  const postUrl = `https://hotmail.us20.list-manage.com/subscribe/post?u=daaf6d61c262407593d7455dd&amp;id=976d627fd9&amp;v_id=4297&amp;f_id=00e953e7f0`;
+  const postUrl = `https://hotmail.us20.list-manage.com/subscribe/post?u=daaf6d61c262407593d7455dd&id=$976d627fd9`;
     return (
         <div className="mc__form-container">
             <MailchimpSubscribe
