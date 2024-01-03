@@ -3,6 +3,7 @@ import './App.css';
 import MailchimpTest2 from './MailchimpTest2'
 import HtmlForm from './HtmlForm'
 import MailchimpTestEmailOnly from './MailchimpTestEmailOnly'
+import InstagramTest from './instagram'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <MailchimpTest2/>
       {/* <HtmlForm/> */}
       <MailchimpTestEmailOnly/>
+      <InstagramTest/>
     </div>
   );
 }
